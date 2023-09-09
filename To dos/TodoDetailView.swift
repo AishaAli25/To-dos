@@ -24,6 +24,6 @@ struct TodoDetailView: View {
 
 struct TodoDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TodoDetailView(todo: .constant(Todo(title: "Feed the demo cat")))
+        TodoDetailView(todo: .constant(Todo(title: "Feed demo cat")))
     }
 }
